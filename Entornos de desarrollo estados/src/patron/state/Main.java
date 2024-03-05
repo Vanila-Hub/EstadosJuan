@@ -3,8 +3,10 @@ package patron.state;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	Habitacion h = new Habitacion();
+	h.ocupar();
+	h.liberar();
+	
 	}
 
 }
