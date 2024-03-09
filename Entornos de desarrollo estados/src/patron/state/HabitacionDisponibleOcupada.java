@@ -4,7 +4,7 @@ public class HabitacionDisponibleOcupada implements HabitacionEstado{
 
 	@Override
 	public HabitacionEstado ocupar() {
-		return this;
+		return new HabitacionOcupada();
 	}
 
 	@Override
